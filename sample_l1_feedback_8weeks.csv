@@ -1,0 +1,63 @@
+trainee_id,location,training_batch,category_tags,rating_score,open_text,week_start_date,week_end_date
+T001,Bangalore,L1-2024-B01,"infrastructure,training_program",1,"Severe technical issues this week. Laptop keeps freezing and network is completely unstable. Can't complete assignments on time.",2024-10-07,2024-10-13
+T002,Chennai,L1-2024-C01,"trainer_feedback,assessment",2,"Assessment was very difficult and trainer didn't prepare us well. Feeling lost and stressed about the course.",2024-10-07,2024-10-13
+T003,Hyderabad,L1-2024-H01,"infrastructure,batch_owner_experience",1,"Network problems are unbearable. Batch owner is not responsive to our technical complaints.",2024-10-07,2024-10-13
+T004,Pune,L1-2024-P01,"training_program,mentor_support",2,"Course pace is too fast. Mentor is busy and doesn't have time to help with doubts.",2024-10-07,2024-10-13
+T005,Mumbai,L1-2024-M01,"infrastructure,engagement_experience",1,"Technical setup is a disaster. Losing motivation because of constant system failures.",2024-10-07,2024-10-13
+T006,Bangalore,L1-2024-B01,"trainer_feedback,training_program",2,"Trainer seems rushed and doesn't explain concepts clearly. Training material is confusing.",2024-10-07,2024-10-13
+T007,Chennai,L1-2024-C01,"assessment,batch_owner_experience",1,"Assessment stress is overwhelming. Batch owner doesn't understand the pressure we're under.",2024-10-07,2024-10-13
+T008,Hyderabad,L1-2024-H01,"infrastructure,mentor_support",1,"Internet keeps disconnecting. Mentor tries to help but can't fix the technical problems.",2024-10-07,2024-10-13
+T009,Pune,L1-2024-P01,"training_program,engagement_experience",2,"Curriculum is poorly organized. Learning environment is stressful and not conducive to learning.",2024-10-07,2024-10-13
+T010,Mumbai,L1-2024-M01,"trainer_feedback,infrastructure",1,"Trainer is okay but technical issues make it impossible to learn. Very frustrated.",2024-10-07,2024-10-13
+T011,Bangalore,L1-2024-B02,"infrastructure,training_program",2,"Lab setup is broken. Training sessions are constantly interrupted by technical failures.",2024-10-14,2024-10-20
+T012,Chennai,L1-2024-C02,"trainer_feedback,mentor_support",2,"Trainer delivery needs improvement. Mentor is supportive but overwhelmed with requests.",2024-10-14,2024-10-20
+T013,Hyderabad,L1-2024-H02,"infrastructure,assessment",1,"Still facing severe network issues. Assessment week made everything worse. Very stressed.",2024-10-14,2024-10-20
+T014,Pune,L1-2024-P02,"batch_owner_experience,engagement_experience",2,"Batch owner communication is poor. Overall atmosphere is negative and demotivating.",2024-10-14,2024-10-20
+T015,Mumbai,L1-2024-M02,"training_program,infrastructure",1,"Course content is outdated and technical problems persist. Considering dropping out.",2024-10-14,2024-10-20
+T016,Bangalore,L1-2024-B01,"trainer_feedback,training_program",2,"Trainer tries hard but curriculum pace is unrealistic. Can't keep up with the workload.",2024-10-14,2024-10-20
+T017,Chennai,L1-2024-C01,"assessment,mentor_support",2,"Assessment was poorly designed. Mentor helps when available but it's not enough.",2024-10-14,2024-10-20
+T018,Hyderabad,L1-2024-H01,"infrastructure,batch_owner_experience",1,"Technical issues are getting worse. Batch owner is unresponsive to escalations.",2024-10-14,2024-10-20
+T019,Pune,L1-2024-P01,"training_program,engagement_experience",2,"Training material doesn't match our skill level. Learning environment is chaotic.",2024-10-14,2024-10-20
+T020,Mumbai,L1-2024-M01,"infrastructure,trainer_feedback",1,"System crashes multiple times daily. Trainer is patient but we're losing valuable time.",2024-10-14,2024-10-20
+T021,Bangalore,L1-2024-B01,"infrastructure,mentor_support",2,"Laptop performance improved slightly but still having network issues. Mentor is helpful.",2024-10-21,2024-10-27
+T022,Chennai,L1-2024-C01,"trainer_feedback,training_program",3,"Trainer is starting to slow down the pace which helps. Material is still challenging though.",2024-10-21,2024-10-27
+T023,Hyderabad,L1-2024-H01,"batch_owner_experience,infrastructure",2,"Batch owner finally acknowledged our tech issues. Waiting for IT team to fix problems.",2024-10-21,2024-10-27
+T024,Pune,L1-2024-P01,"training_program,engagement_experience",2,"Course is difficult but at least we're getting more practice time now. Slight improvement.",2024-10-21,2024-10-27
+T025,Mumbai,L1-2024-M01,"trainer_feedback,mentor_support",3,"Trainer and mentor are working together better. Communication has improved this week.",2024-10-21,2024-10-27
+T026,Bangalore,L1-2024-B02,"infrastructure,training_program",2,"IT team visited and fixed some issues. Training is still challenging but less frustrating.",2024-10-21,2024-10-27
+T027,Chennai,L1-2024-C02,"assessment,batch_owner_experience",3,"Assessment format was better this time. Batch owner is more attentive to our concerns.",2024-10-21,2024-10-27
+T028,Hyderabad,L1-2024-H02,"mentor_support,engagement_experience",3,"Mentor organized extra doubt clearing sessions. Appreciating the additional support.",2024-10-21,2024-10-27
+T029,Pune,L1-2024-P02,"trainer_feedback,training_program",2,"Trainer is more responsive to feedback. Curriculum is still tough but manageable now.",2024-10-21,2024-10-27
+T030,Mumbai,L1-2024-M02,"infrastructure,engagement_experience",3,"Technical issues reduced significantly. Can finally focus on learning. Hopeful now.",2024-10-21,2024-10-27
+T031,Bangalore,L1-2024-B01,"infrastructure,trainer_feedback",3,"New laptops arrived! Network is stable now. Trainer explains concepts more clearly too.",2024-10-28,2024-11-03
+T032,Chennai,L1-2024-C01,"training_program,mentor_support",3,"Training pace is much better. Mentor is available and helpful. Starting to enjoy learning.",2024-10-28,2024-11-03
+T033,Hyderabad,L1-2024-H01,"batch_owner_experience,engagement_experience",3,"Batch owner is proactive and supportive. Team atmosphere has improved significantly.",2024-10-28,2024-11-03
+T034,Pune,L1-2024-P01,"trainer_feedback,training_program",4,"Trainer is excellent now! Makes difficult topics easy to understand. Great improvement.",2024-10-28,2024-11-03
+T035,Mumbai,L1-2024-M01,"infrastructure,mentor_support",3,"All technical issues resolved. Mentor is fantastic and always available for doubts.",2024-10-28,2024-11-03
+T036,Bangalore,L1-2024-B02,"trainer_feedback,engagement_experience",4,"Really enjoying the sessions now. Trainer is engaging and creates great learning environment.",2024-10-28,2024-11-03
+T037,Chennai,L1-2024-C02,"training_program,batch_owner_experience",3,"Course content is clearer with better examples. Batch owner checks on us regularly.",2024-10-28,2024-11-03
+T038,Hyderabad,L1-2024-H02,"mentor_support,assessment",4,"Mentor provides amazing guidance. Assessment was fair and tested what we actually learned.",2024-10-28,2024-11-03
+T039,Pune,L1-2024-P02,"infrastructure,training_program",3,"Infrastructure is stable and reliable now. Training quality has improved dramatically.",2024-10-28,2024-11-03
+T040,Mumbai,L1-2024-M02,"trainer_feedback,engagement_experience",4,"Trainer is motivating and supportive. Looking forward to every session. Big turnaround!",2024-10-28,2024-11-03
+T041,Bangalore,L1-2024-B01,"trainer_feedback,mentor_support",4,"Both trainer and mentor are exceptional. They work as a great team to support us.",2024-11-04,2024-11-10
+T042,Chennai,L1-2024-C01,"training_program,engagement_experience",4,"Loving the hands-on projects. Training is well-structured and engaging. Great week!",2024-11-04,2024-11-10
+T043,Hyderabad,L1-2024-H01,"infrastructure,batch_owner_experience",4,"Everything is running smoothly. Batch owner is responsive and supportive. Very satisfied.",2024-11-04,2024-11-10
+T044,Pune,L1-2024-P01,"trainer_feedback,training_program",4,"Trainer makes learning fun and interactive. Best training experience so far!",2024-11-04,2024-11-10
+T045,Mumbai,L1-2024-M01,"mentor_support,engagement_experience",5,"Mentor is outstanding! Always available and explains things perfectly. Couldn't ask for better support.",2024-11-04,2024-11-10
+T046,Bangalore,L1-2024-B02,"training_program,trainer_feedback",4,"Course is challenging in a good way. Trainer provides excellent real-world examples.",2024-11-04,2024-11-10
+T047,Chennai,L1-2024-C02,"batch_owner_experience,mentor_support",4,"Batch owner and mentor are both fantastic. Feel well-supported and motivated.",2024-11-04,2024-11-10
+T048,Hyderabad,L1-2024-H02,"trainer_feedback,engagement_experience",5,"Trainer is brilliant! Sessions are interactive and engaging. Learning so much every day.",2024-11-04,2024-11-10
+T049,Pune,L1-2024-P02,"infrastructure,training_program",4,"Technical setup works perfectly. Training quality is excellent. Very happy with progress.",2024-11-04,2024-11-10
+T050,Mumbai,L1-2024-M02,"trainer_feedback,mentor_support",5,"Amazing trainer and mentor duo! They really care about our learning and success.",2024-11-04,2024-11-10
+T051,Bangalore,L1-2024-B01,"trainer_feedback,training_program",4,"Trainer continues to deliver excellent sessions. Curriculum is well-paced and interesting.",2024-11-11,2024-11-17
+T052,Chennai,L1-2024-C01,"mentor_support,engagement_experience",4,"Mentor is fantastic and always encouraging. Great collaborative learning atmosphere.",2024-11-11,2024-11-17
+T053,Hyderabad,L1-2024-H01,"batch_owner_experience,training_program",4,"Batch owner is very supportive. Training program meets all expectations. Happy trainee!",2024-11-11,2024-11-17
+T054,Pune,L1-2024-P01,"trainer_feedback,infrastructure",5,"Trainer is exceptional! Everything technical works perfectly. Best learning experience ever.",2024-11-11,2024-11-17
+T055,Mumbai,L1-2024-M01,"training_program,mentor_support",4,"Course structure is excellent. Mentor provides great guidance on projects. Learning a lot.",2024-11-11,2024-11-17
+T056,Bangalore,L1-2024-B02,"engagement_experience,trainer_feedback",5,"Love the interactive sessions and group activities. Trainer makes learning enjoyable!",2024-11-11,2024-11-17
+T057,Chennai,L1-2024-C02,"trainer_feedback,mentor_support",5,"Both trainer and mentor are outstanding. Feel privileged to learn from them.",2024-11-11,2024-11-17
+T058,Hyderabad,L1-2024-H02,"training_program,batch_owner_experience",4,"Training is comprehensive and well-delivered. Batch owner ensures everything runs smoothly.",2024-11-11,2024-11-17
+T059,Pune,L1-2024-P02,"mentor_support,engagement_experience",4,"Mentor is incredibly supportive. Learning environment is positive and motivating.",2024-11-11,2024-11-17
+T060,Mumbai,L1-2024-M02,"trainer_feedback,training_program",5,"Trainer is absolutely brilliant! Makes complex topics simple. Truly inspiring!",2024-11-11,2024-11-17
+
+

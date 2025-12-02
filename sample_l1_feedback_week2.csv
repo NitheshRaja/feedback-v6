@@ -1,0 +1,38 @@
+trainee_id,location,training_batch,category_tags,rating_score,open_text,week_start_date,week_end_date
+T001,Bangalore,L1-2024-B01,"trainer_feedback,training_program",3,"The trainer is knowledgeable but sometimes goes too fast. Finding it hard to keep up with the pace of the course.",2024-11-18,2024-11-24
+T002,Chennai,L1-2024-C01,"infrastructure,engagement_experience",2,"Still facing laptop issues. Network is unstable and causing problems during live sessions.",2024-11-18,2024-11-24
+T003,Hyderabad,L1-2024-H01,"mentor_support,trainer_feedback",4,"Mentor is helpful and responds to queries. Trainer explains concepts well but could use more examples.",2024-11-18,2024-11-24
+T004,Pune,L1-2024-P01,"training_program,assessment",2,"The assessment was very difficult. Not enough time was given to prepare and practice.",2024-11-18,2024-11-24
+T005,Bangalore,L1-2024-B01,"batch_owner_experience,engagement_experience",3,"Batch owner checks in regularly but doesn't always address our concerns promptly.",2024-11-18,2024-11-24
+T006,Mumbai,L1-2024-M01,"infrastructure,trainer_feedback",1,"Major technical problems this week. System keeps crashing and we're losing valuable learning time.",2024-11-18,2024-11-24
+T007,Chennai,L1-2024-C01,"mentor_support,training_program",3,"Mentor is good but sometimes busy. Training content is okay but needs more hands-on practice.",2024-11-18,2024-11-24
+T008,Hyderabad,L1-2024-H01,"trainer_feedback,engagement_experience",4,"Good trainer who makes effort to engage everyone. Sessions are interactive and helpful.",2024-11-18,2024-11-24
+T009,Pune,L1-2024-P01,"infrastructure,batch_owner_experience",1,"Network issues are getting worse. Batch owner seems unaware of how serious the problem is.",2024-11-18,2024-11-24
+T010,Bangalore,L1-2024-B02,"training_program,mentor_support",2,"Course is moving too fast. Mentor tries to help but there's too much to cover in limited time.",2024-11-18,2024-11-24
+T011,Mumbai,L1-2024-M01,"trainer_feedback,engagement_experience",3,"Trainer is decent but could be more engaging. Some sessions feel monotonous.",2024-11-18,2024-11-24
+T012,Chennai,L1-2024-C02,"assessment,training_program",2,"Assessment stress is high. Would appreciate more practice tests before the actual exam.",2024-11-18,2024-11-24
+T013,Hyderabad,L1-2024-H01,"mentor_support,infrastructure",3,"Mentor is supportive. Lab setup works most of the time but has occasional glitches.",2024-11-18,2024-11-24
+T014,Pune,L1-2024-P01,"trainer_feedback,batch_owner_experience",4,"Trainer is very patient and explains things clearly. Batch owner is approachable.",2024-11-18,2024-11-24
+T015,Bangalore,L1-2024-B01,"engagement_experience,training_program",2,"Learning environment is okay but lacks energy. Would like more interactive activities.",2024-11-18,2024-11-24
+T016,Mumbai,L1-2024-M02,"infrastructure,mentor_support",1,"Severe network problems continue. Mentor is understanding but can't fix technical issues.",2024-11-18,2024-11-24
+T017,Chennai,L1-2024-C01,"trainer_feedback,assessment",3,"Trainer provides feedback but assessment format could be improved to better test understanding.",2024-11-18,2024-11-24
+T018,Hyderabad,L1-2024-H02,"training_program,engagement_experience",4,"Enjoying the hands-on projects. They're challenging but help in understanding concepts better.",2024-11-18,2024-11-24
+T019,Pune,L1-2024-P02,"batch_owner_experience,mentor_support",2,"Batch owner communication could be clearer. Mentor is helpful but response time is slow.",2024-11-18,2024-11-24
+T020,Bangalore,L1-2024-B02,"infrastructure,trainer_feedback",1,"Development environment setup is still problematic. Losing too much time on technical issues.",2024-11-18,2024-11-24
+T021,Mumbai,L1-2024-M01,"mentor_support,engagement_experience",3,"Mentor is supportive but peer collaboration could be better organized.",2024-11-18,2024-11-24
+T022,Chennai,L1-2024-C02,"training_program,trainer_feedback",2,"Content is comprehensive but delivery needs improvement. Trainer seems rushed.",2024-11-18,2024-11-24
+T023,Hyderabad,L1-2024-H01,"assessment,batch_owner_experience",2,"Assessment pressure is overwhelming. Batch owner doesn't seem to understand the stress we're under.",2024-11-18,2024-11-24
+T024,Pune,L1-2024-P01,"trainer_feedback,infrastructure",3,"Trainer explains well but lab infrastructure has reliability issues.",2024-11-18,2024-11-24
+T025,Bangalore,L1-2024-B01,"engagement_experience,mentor_support",4,"Good learning environment overall. Mentor and trainer coordinate well.",2024-11-18,2024-11-24
+T026,Mumbai,L1-2024-M02,"training_program,infrastructure",1,"Curriculum feels outdated and technical problems are frustrating. Need urgent improvements.",2024-11-18,2024-11-24
+T027,Chennai,L1-2024-C01,"trainer_feedback,mentor_support",3,"Both trainer and mentor are helpful but could be more proactive in addressing issues.",2024-11-18,2024-11-24
+T028,Hyderabad,L1-2024-H02,"batch_owner_experience,engagement_experience",3,"Batch owner is well-meaning but could communicate better. Overall atmosphere is positive.",2024-11-18,2024-11-24
+T029,Pune,L1-2024-P02,"assessment,training_program",1,"Assessments don't match what we learned. There's a disconnect between training and evaluation.",2024-11-18,2024-11-24
+T030,Bangalore,L1-2024-B02,"infrastructure,engagement_experience",2,"Technical issues persist. Would like more group activities to improve engagement.",2024-11-18,2024-11-24
+T031,Mumbai,L1-2024-M01,"trainer_feedback",2,"Trainer knowledge is good but teaching style could be more engaging and interactive.",2024-11-18,2024-11-24
+T032,Chennai,L1-2024-C01,"mentor_support",3,"Mentor is available and tries to help but sometimes explanations are unclear.",2024-11-18,2024-11-24
+T033,Hyderabad,L1-2024-H01,"training_program",3,"Training material is comprehensive but could use more real-world examples.",2024-11-18,2024-11-24
+T034,Pune,L1-2024-P01,"infrastructure",2,"Lab setup has frequent issues. Affecting our ability to complete assignments on time.",2024-11-18,2024-11-24
+T035,Bangalore,L1-2024-B01,"engagement_experience",3,"Learning environment is decent but could be more collaborative and interactive.",2024-11-18,2024-11-24
+
+

@@ -1,0 +1,24 @@
+# Render Blueprint for Backend Deployment
+services:
+  - type: web
+    name: feedback-backend
+    env: python
+    region: singapore  # Change to your preferred region
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    rootDir: backend
+    healthCheckPath: /health
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        value: sqlite:///./feedback.db
+      - key: CORS_ORIGINS
+        value: '["*"]'  # Update with your Vercel URL after frontend deploys
+      - key: PYTHON_VERSION
+        value: 3.11.0
+    disk:
+      name: feedback-db
+      mountPath: /opt/render/project/src
+      sizeGB: 1
+
