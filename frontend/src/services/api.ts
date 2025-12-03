@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1'
+// Production API URL - Render backend
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://feedback-v6.onrender.com/api/v1'
 
 const api = axios.create({
   baseURL: API_BASE_URL,
