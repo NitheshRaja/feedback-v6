@@ -1,6 +1,11 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  ],
+  "build": {
+    "env": {
+      "VITE_API_URL": "https://feedback-v6.onrender.com/api/v1"
+    }
+  }
 }
 
