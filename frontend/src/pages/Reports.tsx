@@ -16,7 +16,7 @@ import {
   Alert,
   TextField,
 } from '@mui/material'
-import { format, startOfWeek, addDays } from 'date-fns'
+import { format, startOfWeek } from 'date-fns'
 import { reportService, pdfService } from '../services/feedback'
 import { WeeklyReport } from '../types'
 
@@ -62,7 +62,7 @@ const Reports = () => {
       const weekStartDate = new Date(weekStart + 'T00:00:00')
       const weekStartISO = weekStartDate.toISOString()
       
-      const newReport = await reportService.generateWeeklyReport(weekStartISO)
+      await reportService.generateWeeklyReport(weekStartISO)
       setSuccess('Report generated successfully!')
       // Reload reports
       await loadReports()
