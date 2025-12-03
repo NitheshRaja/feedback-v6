@@ -2,11 +2,11 @@
 services:
   - type: web
     name: feedback-backend
-    env: python
+    runtime: python
     region: singapore  # Change to your preferred region
-    buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
-    rootDir: backend
+    plan: free
+    buildCommand: cd backend && pip install -r requirements.txt
+    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /health
     envVars:
       - key: SECRET_KEY
@@ -16,7 +16,7 @@ services:
       - key: CORS_ORIGINS
         value: '["*"]'  # Update with your Vercel URL after frontend deploys
       - key: PYTHON_VERSION
-        value: 3.11.0
+        value: "3.11.9"
     disk:
       name: feedback-db
       mountPath: /opt/render/project/src

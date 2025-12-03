@@ -1,0 +1,58 @@
+================================
+DEPLOYMENT: NEXT STEPS
+================================
+
+STEP 1: CREATE GITHUB REPOSITORY
+---------------------------------
+
+1. Open browser and go to: https://github.com/new
+
+2. Fill in:
+   - Repository name: feedback-v6
+   - Description: L1 Feedback Sentiment Analysis System
+   - Visibility: Public (or Private if you prefer)
+   
+3. IMPORTANT: DO NOT check any of these boxes:
+   [ ] Add a README file
+   [ ] Add .gitignore
+   [ ] Choose a license
+   
+4. Click "Create repository"
+
+5. COPY the repository URL shown (example):
+   https://github.com/YOUR_USERNAME/feedback-v6.git
+
+
+STEP 2: CONNECT AND PUSH CODE
+------------------------------
+
+After creating the repo, run these commands in your terminal:
+
+Command 1:
+git remote add origin https://github.com/YOUR_USERNAME/feedback-v6.git
+
+Command 2:
+git branch -M main
+
+Command 3:
+git push -u origin main
+
+
+STEP 3: VERIFY
+--------------
+
+Refresh your GitHub page - you should see all your files!
+
+
+STEP 4: CONTINUE TO RENDER
+---------------------------
+
+Once code is on GitHub, open: DEPLOY_NOW.md
+Go to STEP 3: Deploy Backend to Render
+
+
+================================
+READY? Start with STEP 1 above!
+================================
+
+

@@ -1,0 +1,204 @@
+========================================
+RENDER.COM BACKEND DEPLOYMENT GUIDE
+========================================
+
+YOUR GITHUB REPO: https://github.com/NitheshRaja/feedback-v6
+
+========================================
+STEP-BY-STEP INSTRUCTIONS
+========================================
+
+1. SIGN UP / LOGIN TO RENDER
+   ----------------------------
+   - Click "Get Started for Free" (or "Sign In" if you have account)
+   - Choose "Sign up with GitHub" (recommended)
+   - Authorize Render to access your GitHub account
+   - This allows Render to see your repositories
+
+
+2. CREATE NEW WEB SERVICE
+   ------------------------
+   - Click "New +" button (top right corner)
+   - Select "Web Service"
+   - Click "Build and deploy from a Git repository"
+   - Click "Next"
+
+
+3. CONNECT YOUR REPOSITORY
+   -------------------------
+   - Find "NitheshRaja/feedback-v6" in the list
+   - If you don't see it, click "Configure account" to grant access
+   - Click "Connect" next to feedback-v6
+
+
+4. CONFIGURE THE SERVICE
+   ----------------------
+
+   BASIC SETTINGS:
+   ---------------
+   Name: feedback-backend
+   Region: Singapore (or closest to you: Oregon, Frankfurt, etc.)
+   Branch: main
+   Root Directory: backend
+   Runtime: Python 3
+
+
+   BUILD SETTINGS:
+   ---------------
+   Build Command:
+   pip install -r requirements.txt
+
+   Start Command:
+   uvicorn app.main:app --host 0.0.0.0 --port $PORT
+
+
+   INSTANCE TYPE:
+   --------------
+   Select: Free ($0/month)
+
+
+5. ADD ENVIRONMENT VARIABLES
+   --------------------------
+   Click "Advanced" to expand options
+   Scroll to "Environment Variables"
+   Click "Add Environment Variable" for each:
+
+   Variable 1:
+   KEY: SECRET_KEY
+   VALUE: your-super-secret-key-change-this-123456789
+
+   Variable 2:
+   KEY: DATABASE_URL
+   VALUE: sqlite:///./feedback.db
+
+   Variable 3:
+   KEY: CORS_ORIGINS
+   VALUE: http://localhost:5173
+
+   Variable 4:
+   KEY: SENTIMENT_MODEL
+   VALUE: cardiffnlp/twitter-roberta-base-sentiment-latest
+
+   Variable 5:
+   KEY: DEVICE
+   VALUE: cpu
+
+
+6. ADD PERSISTENT DISK (IMPORTANT!)
+   ---------------------------------
+   Scroll down to "Disks" section
+   Click "Add Disk"
+   
+   Configure:
+   Name: feedback-db
+   Mount Path: /opt/render/project/src
+   Size: 1 GB (free)
+   
+   Click "Create" or "Save"
+
+
+7. CREATE WEB SERVICE
+   -------------------
+   Review all settings above
+   Click "Create Web Service" button (bottom)
+   
+   WAIT 5-10 MINUTES
+   - Watch the build logs
+   - Installing ML models takes time (700MB+)
+   - Be patient!
+
+
+8. VERIFY DEPLOYMENT
+   ------------------
+   When you see:
+   - Green "Live" badge at top
+   - Logs show: "Application startup complete"
+   
+   COPY YOUR BACKEND URL:
+   https://feedback-backend-xxxx.onrender.com
+   
+   (The xxxx will be a random string)
+
+
+9. TEST YOUR BACKEND
+   ------------------
+   Open in browser:
+   https://your-backend-url.onrender.com/health
+   
+   Should show:
+   {"status": "healthy"}
+   
+   Also try:
+   https://your-backend-url.onrender.com/api/v1/docs
+   
+   Should show API documentation
+
+
+========================================
+IMPORTANT NOTES
+========================================
+
+✓ First deployment takes 5-10 minutes (ML models are large)
+✓ Free tier sleeps after 15 minutes of inactivity
+✓ First request after sleep takes ~60 seconds to wake up
+✓ Persistent disk ensures your database survives redeployments
+✓ Auto-deploys when you push to GitHub main branch
+
+
+========================================
+TROUBLESHOOTING
+========================================
+
+Build Failed?
+→ Check build logs for specific error
+→ Usually just needs more time (be patient)
+
+Can't find repository?
+→ Click "Configure account" in Render
+→ Grant access to your repositories
+
+Build hangs at "Installing transformers"?
+→ This is normal! Takes 3-5 minutes
+→ Just wait, don't refresh
+
+Out of memory?
+→ Try reducing requirements (but all should fit in free tier)
+
+
+========================================
+AFTER SUCCESSFUL DEPLOYMENT
+========================================
+
+SAVE YOUR BACKEND URL:
+https://feedback-backend-xxxx.onrender.com
+
+YOU'LL NEED THIS FOR:
+- Frontend deployment (next step)
+- CORS configuration
+- API testing
+
+Write it down in: DEPLOYMENT_URLS.md
+
+
+========================================
+NEXT STEP: DEPLOY FRONTEND TO VERCEL
+========================================
+
+After backend is live, come back to terminal
+and we'll deploy the frontend!
+
+
+========================================
+NEED HELP?
+========================================
+
+Check logs: Dashboard → Your service → Logs tab
+View metrics: Dashboard → Your service → Metrics
+Settings: Dashboard → Your service → Environment
+
+
+========================================
+GOOD LUCK! 🚀
+========================================
+
+
